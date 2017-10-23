@@ -1,0 +1,15 @@
+﻿<Window x:Class="db4o_mk_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:db4o_mk_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="401.997">
+    <Grid>
+        <Button x:Name="BtnAddPerson" Content="Dodaj / Edytuj Osobe" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top" Width="174" Click="BtnAddPerson_Click"/>
+        <ListBox x:Name="ListOfPeople" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="195"/>
+        <Button x:Name="BtnStatic" Content="Statystyka" HorizontalAlignment="Left" Margin="210,35,0,0" VerticalAlignment="Top" Width="174" Click="BtnStatic_Click"/>
+
+    </Grid>
+</Window>

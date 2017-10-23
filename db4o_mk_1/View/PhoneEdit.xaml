@@ -1,0 +1,20 @@
+﻿<Window x:Class="db4o_mk_1.View.PhoneEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:db4o_mk_1.View"
+        mc:Ignorable="d"
+        Title="PhoneEdit" Height="202.236" Width="260.703">
+    <Grid>
+        <Label Content="Numer:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Operator:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.521,0.565"/>
+        <Label Content="Typ:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TbNumber" HorizontalAlignment="Left" Height="23" Margin="87,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TbOperator" HorizontalAlignment="Left" Height="23" Margin="87,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TbType" HorizontalAlignment="Left" Height="23" Margin="87,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="BtnSave" Content="Zapisz" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="75" Click="BtnSave_Click"/>
+        <Button x:Name="BtnCancel" Content="Anuluj" HorizontalAlignment="Left" Margin="90,128,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancel_Click"/>
+        <Button x:Name="BtnDelete" Content="Usuń" HorizontalAlignment="Left" Margin="170,128,0,0" VerticalAlignment="Top" Width="75" Click="BtnDelete_Click" />
+    </Grid>
+</Window>
